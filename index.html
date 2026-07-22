@@ -1,0 +1,157 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+
+<div class="dpw">
+<div class="sheet">
+
+  <div class="masthead">
+    <div class="dragon-rule">
+      <div class="rule-line"></div>
+      <i class="ti ti-flame flame-icon"></i>
+      <i class="ti ti-flame flame-icon"></i>
+      <i class="ti ti-flame flame-icon"></i>
+      <div class="rule-line"></div>
+    </div>
+    <h1 class="title">Dragon Poker</h1>
+    <p class="subtitle">A game of wits, weyrs, and draconic hierarchy</p>
+    <div class="badge-row">
+      <span class="badge">2-6 players</span>
+      <span class="badge">69-card deck</span>
+      <span class="badge">5 suits</span>
+    </div>
+  </div>
+
+  <div class="stat-row">
+    <div class="stat-chip"><div class="stat-num">7</div><div class="stat-lbl">cards per hand</div></div>
+    <div class="stat-chip"><div class="stat-num">3</div><div class="stat-lbl">hatching ground</div></div>
+    <div class="stat-chip"><div class="stat-num">5</div><div class="stat-lbl">turns per round</div></div>
+    <div class="stat-chip"><div class="stat-num">4</div><div class="stat-lbl">wildcards</div></div>
+  </div>
+
+  <div class="two-col">
+    <div>
+      <div class="section-label">The five suits</div>
+      <div class="card-block">
+        <div class="suit-row"><div class="suit-pip pip-gold">G</div><div class="suit-info"><div class="suit-name">Golds</div><div class="suit-desc">Queen dragons</div></div><div class="suit-rank">Highest</div></div>
+        <div class="suit-row"><div class="suit-pip pip-bronze">Br</div><div class="suit-info"><div class="suit-name">Bronzes</div><div class="suit-desc">Bronze dragons</div></div><div class="suit-rank">High</div></div>
+        <div class="suit-row"><div class="suit-pip pip-brown">Bw</div><div class="suit-info"><div class="suit-name">Browns</div><div class="suit-desc">Brown dragons</div></div><div class="suit-rank">Mid</div></div>
+        <div class="suit-row"><div class="suit-pip pip-blue">Bl</div><div class="suit-info"><div class="suit-name">Blues</div><div class="suit-desc">Blue dragons</div></div><div class="suit-rank">Low</div></div>
+        <div class="suit-row"><div class="suit-pip pip-green">Gn</div><div class="suit-info"><div class="suit-name">Greens</div><div class="suit-desc">Green dragons</div></div><div class="suit-rank">Lowest</div></div>
+      </div>
+      <p style="font-size:11px;color:#8B7550;font-style:italic;margin:6px 4px 0;line-height:1.5;">A 3 of Bronzes beats a 10 of Browns. Dragon color always overrides card number.</p>
+    </div>
+    <div>
+      <div class="section-label">Hand rankings</div>
+      <div class="card-block">
+        <table class="hand-table">
+          <tr><td class="hand-num">1</td><td class="hand-name">Full Flight</td><td class="hand-desc">5 cards, same suit</td></tr>
+          <tr><td class="hand-num">2</td><td class="hand-name">Threadfall</td><td class="hand-desc">5 sequential, any suit</td></tr>
+          <tr><td class="hand-num">3</td><td class="hand-name">The Weyr</td><td class="hand-desc">Three of a kind + pair</td></tr>
+          <tr><td class="hand-num">4</td><td class="hand-name">A Wing</td><td class="hand-desc">Four of a kind</td></tr>
+          <tr><td class="hand-num">5</td><td class="hand-name">Mating Flight</td><td class="hand-desc">Two pairs in Gold/Bronze</td></tr>
+                    <tr><td class="hand-num">6</td><td class="hand-name">Three Abreast</td><td class="hand-desc">Three of a Kind</td></tr>
+          <tr><td class="hand-num">7</td><td class="hand-name">Double Pair</td><td class="hand-desc">Any two pairs</td></tr>
+          <tr><td class="hand-num">8</td><td class="hand-name">The Rider</td><td class="hand-desc">One pair</td></tr>
+          <tr><td class="hand-num">9</td><td class="hand-name">High Card</td><td class="hand-desc">Highest single card wins</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-label">Setup</div>
+  <div class="info-box">
+    <div class="info-grid">
+      <div class="info-item"><strong>Deal</strong>Each player is dealt seven cards.</div>
+      <div class="info-item"><strong>Hatching Ground</strong>Three cards are set face-up on the table as communal cards available to all players.</div>
+      <div class="info-item"><strong>Clutch card</strong>One card is placed face-down below the Hatching Ground, revealed at endgame.</div>
+    </div>
+  </div>
+
+  <div class="section-label">Turn structure</div>
+  <div class="turn-flow">
+    <div class="turn-step"><div class="step-circle">1</div><div class="step-label">Weyr Bell<br>Open betting</div></div>
+    <div class="turn-step"><div class="step-circle">2</div><div class="step-label">Pass / Call<br>or Impress</div></div>
+    <div class="turn-step"><div class="step-circle">3</div><div class="step-label">The Reveal<br>Flip all cards</div></div>
+    <div class="turn-step"><div class="step-circle">4</div><div class="step-label">Draw or swap<br>Hatching Ground</div></div>
+  </div>
+
+  <div class="section-label">Special cards</div>
+  <div class="special-grid">
+    <div class="special-card"><div class="special-card-title"><i class="ti ti-crown" style="font-size:14px;"></i> Weyrwoman</div><div class="special-card-body">Declare as any Gold value of your choice.</div></div>
+    <div class="special-card"><div class="special-card-title"><i class="ti ti-sword" style="font-size:14px;"></i> Weyrleader</div><div class="special-card-body">Declare as any Bronze value of your choice.</div></div>
+    <div class="special-card"><div class="special-card-title"><i class="ti ti-arrows-exchange" style="font-size:14px;"></i> Weyrsecond</div><div class="special-card-body">Force one opponent to swap a card with the Hatching Ground.</div></div>
+    <div class="special-card"><div class="special-card-title"><i class="ti ti-egg" style="font-size:14px;"></i> Impression (x4)</div><div class="special-card-body">Wild - any card, any suit. Must announce "Hatching!" when held.</div></div>
+  </div>
+
+  <div class="section-label">The clutch card</div>
+  <div class="info-box">
+    <p class="info-intro">One card placed face-down beneath the Hatching Ground, revealed after 5 turns.</p>
+    <div class="info-grid">
+      <div class="info-item"><strong>Suit match</strong>Matches winner's suit - double the pot.</div>
+      <div class="info-item"><strong>Value match</strong>Matches any card in winning hand - second place may challenge with a draw.</div>
+      <div class="info-item"><strong>Impression card</strong>Entire pot rolls to next game - a "Gold Flight" pot.</div>
+    </div>
+  </div>
+
+  <div class="section-label">Weyr etiquette</div>
+  <ul class="etiquette-list">
+    <li><i class="ti ti-eye"></i>A rider may not fold while their dragon is physically present and watching. The dragon's pride is at stake.</li>
+    <li><i class="ti ti-bottle"></i>If a green rider wins a Gold Flight pot, tradition demands they buy Benden wine for the whole table.</li>
+    <li><i class="ti ti-gavel"></i>All disputes are settled by the senior Weyrwoman's rider, whose ruling is final and binding.</li>
+  </ul>
+
+  <div class="pullquote">
+    <p>"Thread comes whether you're ready or not. Same as a bad hand of Dragon Poker."</p>
+    <cite>- Overheard at Benden Weyr</cite>
+  </div>
+
+  <div class="sheet-divider">
+    <div class="sheet-divider-line"></div>
+    <div class="sheet-divider-label">OOC Hand Roller</div>
+    <div class="sheet-divider-line"></div>
+  </div>
+
+  <p class="roller-intro">Draws 7 cards from the full 69-card deck - no duplicates. The Hatching Ground and Clutch Card are dealt from what remains. Roll your hand out-of-character, then narrate it in-character. You can draw a new card to replace one in your hand once per turn.</p>
+
+  <div class="btn-row">
+    <button class="dp-btn" id="dpDealBtn"><i class="ti ti-cards" style="font-size:14px;vertical-align:-2px;margin-right:6px;"></i>Deal hand</button>
+    <button class="dp-btn" id="dpDrawBtn" disabled><i class="ti ti-plus" style="font-size:14px;vertical-align:-2px;margin-right:6px;"></i>Draw single card</button>
+    <button class="dp-btn" id="dpHgBtn" disabled><i class="ti ti-layout-grid" style="font-size:14px;vertical-align:-2px;margin-right:6px;"></i>Reveal Hatching Ground</button>
+    <button class="dp-btn" id="dpClutchBtn" disabled><i class="ti ti-eye" style="font-size:14px;vertical-align:-2px;margin-right:6px;"></i>Reveal clutch card</button>
+  </div>
+
+  <div class="roll-result" id="dpRollResult">
+    <div class="r-hand-name" id="dpHandName"></div>
+    <div class="r-hand-rank" id="dpHandRank"></div>
+    <div class="r-label">Your hand</div>
+    <div class="r-cards" id="dpCards"></div>
+    <div id="dpSpecialWrap"></div>
+  </div>
+
+  <div class="hg-result" id="dpHgResult">
+    <div class="r-label">Hatching Ground</div>
+    <div class="r-cards" id="dpHgCards"></div>
+    <p class="hg-note">These three communal cards are face-up and available to all players.</p>
+  </div>
+
+  <div class="draw-result" id="dpDrawResult">
+    <div class="r-label">Drawn card</div>
+    <div class="r-cards" id="dpDrawCard"></div>
+    <div id="dpDrawPrompt"></div>
+  </div>
+
+  <div class="clutch-result" id="dpClutchResult">
+    <div class="r-label">Clutch card</div>
+    <div class="clutch-card-row">
+      <div class="clutch-big-card" id="dpClutchCardEl"></div>
+      <div>
+        <div class="clutch-info-name" id="dpClutchName"></div>
+        <div class="clutch-info-sub" id="dpClutchSub"></div>
+      </div>
+    </div>
+    <div class="outcome" id="dpClutchOutcome"></div>
+  </div>
+
+</div>
+</div>
